@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct VERBLApp: App {
+struct WordleApp: App {
+    @StateObject var dm = WordleDataModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GameView()
+                .environmentObject(dm)
         }
     }
 }

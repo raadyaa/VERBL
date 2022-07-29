@@ -10,8 +10,17 @@
 		1116BFCB2889571A00072646 /* VERBLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1116BFCA2889571A00072646 /* VERBLApp.swift */; };
 		1116BFCD2889571A00072646 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1116BFCC2889571A00072646 /* ContentView.swift */; };
 		1116BFCF2889571D00072646 /*  .xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1116BFCE2889571D00072646 /*  .xcassets */; };
-		1116BFD22889571D00072646 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1116BFD12889571D00072646 /* Preview Assets.xcassets */; };
 		1116BFD928938D1100072646 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1116BFD828938D1100072646 /* Launch Screen.storyboard */; };
+		1116C0B52893B7D300072646 /* GuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1116C0B12893B7D300072646 /* GuessView.swift */; };
+		1116C0B62893B7D300072646 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1116C0AB2893B7D300072646 /* Global.swift */; };
+		1116C0B72893B7D300072646 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1116C0B32893B7D300072646 /* Keyboard.swift */; };
+		1116C0B82893B7D300072646 /* LetterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1116C0B42893B7D300072646 /* LetterButtonView.swift */; };
+		1116C0B92893B7D300072646 /* WordleDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1116C0A92893B7D300072646 /* WordleDataModel.swift */; };
+		1116C0BA2893B7D300072646 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1116C0B22893B7D300072646 /* GameView.swift */; };
+		1116C0BB2893B7D300072646 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1116C0AF2893B7D300072646 /* FlipView.swift */; };
+		1116C0BC2893B7D300072646 /* Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1116C0AE2893B7D300072646 /* Shake.swift */; };
+		1116C0BD2893B7D300072646 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1116C0A72893B7D300072646 /* Color+Extension.swift */; };
+		1116C0BE2893B7D300072646 /* Guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1116C0AC2893B7D300072646 /* Guess.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,8 +28,18 @@
 		1116BFCA2889571A00072646 /* VERBLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VERBLApp.swift; sourceTree = "<group>"; };
 		1116BFCC2889571A00072646 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1116BFCE2889571D00072646 /*  .xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = " .xcassets"; sourceTree = "<group>"; };
-		1116BFD12889571D00072646 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1116BFD828938D1100072646 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		1116C0A42893B54A00072646 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1116C0A72893B7D300072646 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		1116C0A92893B7D300072646 /* WordleDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleDataModel.swift; sourceTree = "<group>"; };
+		1116C0AB2893B7D300072646 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		1116C0AC2893B7D300072646 /* Guess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess.swift; sourceTree = "<group>"; };
+		1116C0AE2893B7D300072646 /* Shake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shake.swift; sourceTree = "<group>"; };
+		1116C0AF2893B7D300072646 /* FlipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
+		1116C0B12893B7D300072646 /* GuessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessView.swift; sourceTree = "<group>"; };
+		1116C0B22893B7D300072646 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		1116C0B32893B7D300072646 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		1116C0B42893B7D300072646 /* LetterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,21 +72,71 @@
 		1116BFC92889571A00072646 /* VERBL */ = {
 			isa = PBXGroup;
 			children = (
+				1116C0AD2893B7D300072646 /* Animations */,
+				1116C0A62893B7D300072646 /* Extensions */,
+				1116C0AA2893B7D300072646 /* Models */,
+				1116C0A82893B7D300072646 /* ViewModels */,
+				1116C0B02893B7D300072646 /* Views */,
+				1116C0A32893B54A00072646 /* Preview Content */,
 				1116BFCA2889571A00072646 /* VERBLApp.swift */,
 				1116BFCC2889571A00072646 /* ContentView.swift */,
 				1116BFCE2889571D00072646 /*  .xcassets */,
 				1116BFD828938D1100072646 /* Launch Screen.storyboard */,
-				1116BFD02889571D00072646 /* Preview Content */,
 			);
 			path = VERBL;
 			sourceTree = "<group>";
 		};
-		1116BFD02889571D00072646 /* Preview Content */ = {
+		1116C0A32893B54A00072646 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				1116BFD12889571D00072646 /* Preview Assets.xcassets */,
+				1116C0A42893B54A00072646 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1116C0A62893B7D300072646 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1116C0A72893B7D300072646 /* Color+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1116C0A82893B7D300072646 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1116C0A92893B7D300072646 /* WordleDataModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1116C0AA2893B7D300072646 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1116C0AB2893B7D300072646 /* Global.swift */,
+				1116C0AC2893B7D300072646 /* Guess.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1116C0AD2893B7D300072646 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				1116C0AE2893B7D300072646 /* Shake.swift */,
+				1116C0AF2893B7D300072646 /* FlipView.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		1116C0B02893B7D300072646 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1116C0B22893B7D300072646 /* GameView.swift */,
+				1116C0B12893B7D300072646 /* GuessView.swift */,
+				1116C0B42893B7D300072646 /* LetterButtonView.swift */,
+				1116C0B32893B7D300072646 /* Keyboard.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +198,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1116BFD928938D1100072646 /* Launch Screen.storyboard in Resources */,
-				1116BFD22889571D00072646 /* Preview Assets.xcassets in Resources */,
 				1116BFCF2889571D00072646 /*  .xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,8 +209,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1116C0BD2893B7D300072646 /* Color+Extension.swift in Sources */,
+				1116C0BB2893B7D300072646 /* FlipView.swift in Sources */,
 				1116BFCD2889571A00072646 /* ContentView.swift in Sources */,
+				1116C0BA2893B7D300072646 /* GameView.swift in Sources */,
+				1116C0BC2893B7D300072646 /* Shake.swift in Sources */,
 				1116BFCB2889571A00072646 /* VERBLApp.swift in Sources */,
+				1116C0B62893B7D300072646 /* Global.swift in Sources */,
+				1116C0BE2893B7D300072646 /* Guess.swift in Sources */,
+				1116C0B72893B7D300072646 /* Keyboard.swift in Sources */,
+				1116C0B82893B7D300072646 /* LetterButtonView.swift in Sources */,
+				1116C0B92893B7D300072646 /* WordleDataModel.swift in Sources */,
+				1116C0B52893B7D300072646 /* GuessView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
